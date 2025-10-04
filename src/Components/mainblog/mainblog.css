@@ -1,0 +1,441 @@
+.mblogMaindiv {
+    /* border: 2px solid red; */
+    width: 83%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+#respBlog img {
+    /* border: 2px solid red; */
+    /* width: 800px !important;
+    height: 500px !important; */
+}
+
+#respBlog a {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+#respBlog a:hover {
+    color: blue !important;
+}
+
+.forImg {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.forImg img {
+    width: 100%;
+    height: 100%;
+}
+
+.forImg2 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.loaderdiv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+/* update page css  */
+
+.mainblogmaindiv {
+    background-color: #DA1F24;
+    /* height: 80vh; */
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mainblogmaininner {
+    width: 80%;
+    margin: auto;
+}
+
+.mainblogmaininner a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.mainblogmaininner a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.mainblogmaininner p {
+    color: white;
+    font-weight: 700;
+}
+
+.mainblogmaininner h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.mainblog2main {
+    background-color: #f5f5f5;
+    padding-bottom: 60px;
+}
+
+.mainblog2 {
+    display: flex;
+    /* border: 2px solid black; */
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.mainblog2left {
+    background-color: white;
+    width: 70%;
+    margin-top: -70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.mainblog2right {
+    /* border: 2px solid green; */
+    width: 30%;
+    min-height: 100vh;
+}
+
+.mainblogimgdiv {
+    width: 100%;
+    height: 600px;
+    /* border: 20px solid white; */
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.mainblogimgdiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.mainblogRecent {
+    color: black;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.mainblogtouch {
+    color: #DA1F24;
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* .mainblogbox{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+
+.mainblogbox {
+    position: -webkit-sticky;
+    /* For Safari */
+    position: sticky;
+    top: 120px;
+    /* z-index: 1000;  */
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+
+
+.mainblogRecentdiv {
+    /* border: 2px solid black; */
+    padding: 30px 10px;
+}
+
+.mainblogRecentinner {
+    margin-bottom: 20px;
+}
+
+.mainblogRecentinner h6 {
+    color: #DA1F24;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mainblogRecentinner span {
+    color: grey;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.FormSelectblog {
+    border: 1px solid #d5d5d5;
+    background: #EDEDED !important;
+}
+
+.FormSelectblog::placeholder {
+    text-align: left;
+}
+
+.mainblogmainparadiv {
+    padding: 20px;
+    background-color: white;
+}
+
+.MdDateRange {
+    font-size: 20px !important;
+}
+
+
+
+
+@media(max-width:600px) {
+    .mainblogmaininner {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mblogMaindiv {
+        /* border: 2px solid red; */
+        width: 85%;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .forImg {
+        /* border: 2px solid black; */
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .forImg2 h1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px !important;
+        /* border: 2px solid black; */
+    }
+
+
+
+    /* updatede  */
+    .mainblogmaindiv {
+        background-color: #DA1F24;
+        height: 64vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+
+    .mainblogmaininner h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .mainblog2 {
+        display: flex;
+        /* border: 2px solid black; */
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .mainblog2left {
+        background-color: white;
+        width: 100%;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+    }
+
+    .mainblogimgdiv {
+        width: 100%;
+        height: auto;
+        /* border: 20px solid white; */
+        padding: 20px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .mainblog2right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newdesknav {
+        display: block !important;
+    }
+
+    .scrollhide-nav {
+        display: block !important;
+    }
+}
+
+/* .scrollhide-nav{
+    display: none !important;
+} */
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .mainblogmaininner {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mblogMaindiv {
+        /* border: 2px solid red; */
+        width: 85%;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .forImg {
+        /* border: 2px solid black; */
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+        margin-top: 40px;
+    }
+
+    .forImg2 h1 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px !important;
+        /* border: 2px solid black; */
+    }
+
+
+
+    /* updatede  */
+    .mainblogmaindiv {
+        background-color: #DA1F24;
+        height: 64vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 50px;
+    }
+
+    .mainblogmaininner h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .mainblog2 {
+        display: flex;
+        /* border: 2px solid black; */
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .mainblog2left {
+        background-color: white;
+        width: 100%;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+    }
+
+    .mainblogimgdiv {
+        width: 100%;
+        height: auto;
+        /* border: 20px solid white; */
+        padding: 20px;
+        border-radius: 20px;
+        background-color: white;
+    }
+
+    .mainblog2right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media(min-width:1800px) {
+    .mainblogmaindiv {
+        background-color: #DA1F24;
+        /* height: 80vh; */
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .mainblog2left {
+        background-color: white;
+        width: 100%;
+        margin-top: -80px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+    }
+
+    .mainblogmaininner a {
+        text-decoration: none;
+        color: white !important;
+        font-weight: 700;
+        margin-right: 10px;
+        font-size: 23px;
+    }
+
+    .mainblogmaininner p {
+        color: white;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .mainblogmaininner h2 {
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        margin: 20px 0px;
+    }
+
+    .MdDateRange {
+        font-size: 35px !important;
+    }
+}

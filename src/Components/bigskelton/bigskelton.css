@@ -1,0 +1,24 @@
+.bigskeltonDiv{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.bigmainskel{
+    margin-top: 100px;
+}
+
+@media(max-width:500px) {
+    .bigmainskel{
+        margin-top: 30px;
+    }
+    .bigskeltonDiv{
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}

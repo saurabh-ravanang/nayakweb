@@ -1,0 +1,236 @@
+.logonayak {
+    width: 90%;
+}
+
+.mainLogo {
+    width: 20%;
+}
+
+.mainLogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: end;
+}
+
+.navbar {
+    padding: 10px 110px;
+}
+
+.nav-itemm {
+    /* margin: 0px 30px; */
+    margin: 0 0 0 13px;
+    /* padding: 0px 10px; */
+}
+
+.nav-itemm:hover {
+    /* background-color: blue; */
+    background-color: #D00000;
+    color: white !important;
+    /* font-size: 30px; */
+}
+
+.title-bar {
+    padding: .5rem;
+    background: white;
+    margin: 0px;
+    width: 100%;
+    color: #fefefe;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky;
+    top: 0;
+    left: 0; */
+}
+
+.grid-container {
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-bar-title {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.newdesknav {
+    display: none;
+}
+
+.scrollhide-nav {
+    display: none;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+}
+
+.naylink {
+    color: black !important;
+}
+
+.naylink:hover {
+    color: black !important;
+}
+
+.resNavLink {
+    color: black !important;
+}
+
+.accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    border-bottom-width: 0;
+    border-color: black transparent transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    right: 1rem;
+}
+
+
+
+
+@media(min-width:800px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: .125em;
+    }
+
+}
+
+
+
+
+.menu-icon::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    box-shadow: 0 7px 0 black, 0 14px 0 black;
+    content: "";
+}
+
+@media(max-width:600px) {
+
+    .navbar {
+        display: none !important;
+    }
+
+    .newdesknav {
+        display: block !important;
+    }
+
+    .scrollhide-nav {
+        display: block !important;
+    }
+}
+
+.tabknav {
+    display: none;
+}
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    .top-bar .menu.vertical.medium-horizontal.menu {
+        display: block !important;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .navbar {
+        display: none !important;
+    }
+
+    .tabknav {
+        display: block;
+    }
+
+    .newdesknav {
+        display: none !important;
+    }
+
+    .scrollhide-nav {
+        display: block !important;
+    }
+
+    .logonayak {
+        width: 47%;
+    }
+
+    .title-bar {
+        padding: .5rem;
+        background: white;
+        margin: 0px;
+        width: 100% !important;
+        color: #fefefe;
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
+    /* .top-bar {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: .5rem;
+        flex-wrap: wrap !important;
+    } */
+
+    .grid-x {
+        display: flex;
+        flex-flow: column !important;
+    }
+    .top-bar .menu.vertical.medium-horizontal.menu {
+        display: block !important;
+    }
+}
+
+
+
+@media (min-width: 1201px) and (max-width: 1405px) {
+    .navbar {
+        padding: 10px 60px;
+    }
+
+    .topBglatest {
+        background-color: #DA1F24 !important;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 80px !important;
+    }
+}

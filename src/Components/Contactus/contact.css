@@ -1,0 +1,135 @@
+.contactUsDiv{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.contactush2{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 50px;
+    color: black;
+}
+.contactush2 span{
+    color: #D00000;
+}
+/* .rownewcontact{
+    margin-right: 20px;
+} */
+.row1{
+    /* border: 2px solid red; */
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.contactAnchor:hover{
+    color: black !important;
+}
+.contactBranch{
+    margin:20px 0px 80px 0px;
+}
+
+@media (max-width: 600px){
+    .contactUsDiv{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        /* padding: 0px 20px; */
+    }
+    .row1{
+        /* border: 2px solid red; */
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+    .googleMap iframe{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+    .EnqForm2{
+        /* border: 1px solid green; */
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+    .contactBranch{
+        margin:20px 0px 2px 0px;
+    }
+    .contactush2{
+        /* border: 2px solid black; */
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 100px;
+        color: black;
+    }
+    .contactush2 span{
+        color: #D00000;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .contactUsDiv{
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        /* padding: 0px 20px; */
+    }
+    .row1{
+        /* border: 2px solid red; */
+        width: 90%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        gap: 20px;
+    }
+    .googleMap iframe{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+    .EnqForm2{
+        /* border: 1px solid green; */
+        margin-top: 30px;
+        padding: 0px 20px;
+    }
+    .contactBranch{
+        margin:20px 0px 2px 0px;
+    }
+    .contactush2{
+        /* border: 2px solid black; */
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 100px;
+        color: black;
+    }
+    .contactush2 span{
+        color: #D00000;
+    }
+}

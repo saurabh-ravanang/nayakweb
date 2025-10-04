@@ -1,0 +1,545 @@
+/* .homeDiv {
+    background-image: url("../../Assets/Home/Group\ 2.png");
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:430px) {
+    .homeDiv {
+        background-image: url("../../Assets/Home/Group\ 2.png");
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+} */
+
+body {
+    overflow-x: hidden !important;
+}
+
+.mainHomeDiv {
+    /* border: 2px solid black; */
+    display: flex;
+    /* margin-top: 50px; */
+    margin-top: 0px;
+}
+
+.homeThird {
+    display: none;
+}
+
+.homeFirst {
+    /* border: 2px solid red; */
+    width: 30%;
+    /* width: 70%; */
+    /* background-color: #DA1F24; */
+    /* background-color: #DA1F24; */
+    background-image: url("../../Assets/Home/Nakays_highlight\)background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 10px 40px;
+    margin-right: 10px;
+}
+
+.homeSecond {
+    /* width: 69.3%; */
+    width: 68.3%;
+    /* border: 2px solid green; */
+    /* margin-top: -71px; */
+}
+
+.homeMainPic {
+    width: 100%;
+}
+
+.homeMainPic img {
+    width: 100%;
+    height: 100%;
+}
+
+.homeCounter {
+    /* background-color: #EDEDED; */
+    /* border: 2px solid white; */
+    padding: 5px 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    /* gap: 10px; */
+}
+
+.homeCounter img {
+    width: 25% !important;
+}
+
+.homeCounter1 img {
+    width: 25% !important;
+}
+
+.homeCounter2 img {
+    width: 25% !important;
+}
+
+.homeCounter1 {
+    /* background-color: #EDEDED; */
+    /* border: 2px solid black; */
+    /* gap: 10px; */
+    padding: 20px 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.homeCounter2 {
+    /* background-color: #EDEDED; */
+    padding: 16px 20px;
+    /* gap: 10px; */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.homeCounter h3 {
+    /* color: #A80303; */
+    color: white;
+    /* width: 73%; */
+    /* border: 2px solid black; */
+    /* margin-top: -10px; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.homeCounter1 h3 {
+    /* color: #A80303; */
+    color: white;
+    /* width: 72%; */
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    /* margin-top: -10px; */
+    /* border: 2px solid black; */
+    /* line-height: 30px; */
+}
+
+.homeCounter2 h3 {
+    /* color: #A80303; */
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.homeCounter span {
+    font-weight: 700;
+    /* color: #A80303; */
+    color: white;
+    font-size: 53px;
+    /* border: 2px solid black; */
+}
+
+.homeCounter1 span {
+    font-weight: 700;
+    /* color: #A80303; */
+    color: white;
+    font-size: 48px;
+}
+
+.homeCounter2 span {
+    font-weight: 700;
+    /* color: #A80303; */
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.homeCounter2 span span {
+    font-weight: 700;
+    /* color: #A80303; */
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+
+@media (max-width:600px) {
+
+    /* body{background-color: #DA1F24;} */
+    .mainHomeDiv {
+        /* border: 2px solid black; */
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .homeFirst {
+        display: none;
+    }
+
+    .homeSecond {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .homeThird {
+        display: block;
+        /* background-color: #A80303; */
+        /* background-color:#DA1F24; */
+        background-image: url("../../Assets/Home/Nakays_highlight\)background.jpg");
+        padding: 20px;
+    }
+
+    .homeMobileCounter {
+        /* border: 2px solid black; */
+        /* background-color: #EDEDED; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .homeMobileCounter img {
+        width: 25% !important;
+        /* border: 2px solid black; */
+    }
+
+    .homeMobileCounter1 img {
+        width: 25% !important;
+    }
+
+    .homeMobileCounter2 img {
+        width: 25% !important;
+    }
+
+    .homeMobileCounter1 {
+        /* border: 2px solid black; */
+        /* background-color: #EDEDED; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .homeMobileCounter2 {
+        /* border: 2px solid black; */
+        /* background-color: #EDEDED; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .homeMobileCounter h3 {
+        font-size: 16px;
+        /* border: 2px solid black; */
+        margin-top: -10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 100%;
+        text-align: center;
+        /* color:#A80303; */
+        color: white;
+        font-weight: 700;
+    }
+
+    .homeMobileCounter1 h3 {
+        font-size: 16px;
+        /* border: 2px solid black; */
+        margin-top: -10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+        width: 70%;
+        /* color: #A80303; */
+        color: white;
+        font-weight: 700;
+    }
+
+    .homeMobileCounter2 h3 {
+        font-size: 16px;
+        /* border: 2px solid black; */
+        margin-top: -4px;
+        width: 100%;
+        /* color: #A80303; */
+        color: white;
+        margin-left: 0px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .homeMobileCounter span {
+        font-size: 50px;
+        /* color: #A80303; */
+        /* border: 2px solid black; */
+        color: white;
+        font-weight: 700;
+        /* margin-right: 20px; */
+    }
+
+    .homeMobileCounter1 span {
+        font-size: 50px;
+        /* color:#A80303; */
+        /* border: 2px solid black; */
+        color: white;
+        font-weight: 700;
+        /* margin-right: 20px; */
+    }
+
+    .homeMobileCounter2 span {
+        font-size: 20px;
+        /* color:#A80303; */
+        /* border: 2px solid black; */
+        color: white;
+        font-weight: 700;
+        /* margin-right: 13px; */
+        text-align: center;
+    }
+
+    .homeMobileCounter2 span span {
+        font-size: 50px;
+    }
+}
+
+@media (min-width:1800px) {
+    .homeCounter1 {
+        padding: 20px 20px;
+    }
+
+    .homeSecond {
+        /* border: 2px solid green; */
+        /* margin-top: -91px; */
+        width: 69.3%;
+    }
+}
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1000px) {
+
+    /* body{background-color: #DA1F24;} */
+    .mainHomeDiv {
+        /* border: 2px solid black; */
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .homeFirst {
+        display: none;
+    }
+
+    .homeSecond {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .homeThird {
+        display: block;
+        /* background-color: #A80303; */
+        /* background-color:#DA1F24; */
+        background-image: url("../../Assets/Home/Nakays_highlight\)background.jpg");
+        padding: 20px;
+    }
+
+    .homeMobileCounter {
+        /* border: 2px solid black; */
+        /* background-color: #EDEDED; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .homeMobileCounter img {
+        width: 25% !important;
+        /* border: 2px solid black; */
+    }
+
+    .homeMobileCounter1 img {
+        width: 25% !important;
+    }
+
+    .homeMobileCounter2 img {
+        width: 25% !important;
+    }
+
+    .homeMobileCounter1 {
+        /* border: 2px solid black; */
+        /* background-color: #EDEDED; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+
+    .homeMobileCounter2 {
+        /* border: 2px solid black; */
+        /* background-color: #EDEDED; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        border-radius: 10px;
+        flex-direction: column;
+    }
+
+    .homeMobileCounter h3 {
+        font-size: 16px;
+        /* border: 2px solid black; */
+        margin-top: -10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 100%;
+        text-align: center;
+        /* color:#A80303; */
+        color: white;
+        font-weight: 700;
+    }
+
+    .homeMobileCounter1 h3 {
+        font-size: 16px;
+        /* border: 2px solid black; */
+        margin-top: -10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+        width: 70%;
+        /* color: #A80303; */
+        color: white;
+        font-weight: 700;
+    }
+
+    .homeMobileCounter2 h3 {
+        font-size: 16px;
+        /* border: 2px solid black; */
+        margin-top: -4px;
+        width: 100%;
+        /* color: #A80303; */
+        color: white;
+        margin-left: 0px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .homeMobileCounter span {
+        font-size: 50px;
+        /* color: #A80303; */
+        /* border: 2px solid black; */
+        color: white;
+        font-weight: 700;
+        /* margin-right: 20px; */
+    }
+
+    .homeMobileCounter1 span {
+        font-size: 50px;
+        /* color:#A80303; */
+        /* border: 2px solid black; */
+        color: white;
+        font-weight: 700;
+        /* margin-right: 20px; */
+    }
+
+    .homeMobileCounter2 span {
+        font-size: 20px;
+        /* color:#A80303; */
+        /* border: 2px solid black; */
+        color: white;
+        font-weight: 700;
+        /* margin-right: 13px; */
+        text-align: center;
+    }
+
+    .homeMobileCounter2 span span {
+        font-size: 50px;
+    }
+}
+
+
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+    .homeCounter span {
+        font-weight: 700;
+        color: white;
+        font-size: 23px;
+        /* border: 2px solid black; */
+    }
+
+    .homeCounter1 span {
+        font-weight: 700;
+        color: white;
+        font-size: 28px;
+    }
+
+    .homeCounter2 span span {
+        font-weight: 700;
+        color: white;
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .homeCounter1 h3 {
+        color: white;
+        /* width: 72%; */
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .homeCounter2 h3 {
+        /* color: #A80303; */
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        /* border: 2px solid black; */
+    }
+
+    .homeCounter h3 {
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .homeFirst {
+        gap: 0px;
+        padding: 10px 40px;
+        margin-right: 10px;
+    }
+}

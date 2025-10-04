@@ -1,0 +1,216 @@
+.testBtnDiv {
+    /* border: 2px solid green; */
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.testBtn {
+    border: 2px solid #D00000;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.testActive {
+    border: 2px solid #D00000;
+    background-color: #D00000 !important;
+    border-radius: 8px;
+    color: white !important;
+    padding: 8px 20px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.mainTestDiv {
+    border-bottom: 2px solid #D00000;
+    /* height: 300px; */
+    display: flex !important;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.testimonialfirst {
+    /* border: 2px solid red; */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialfirst p {
+    font-size: 16px !important;
+    /* font-weight:600; */
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.testimonialsecond {
+    /* border: 2px solid green; */
+    width: 70%;
+}
+
+.testimonialsecond p {
+    font-size: 18px !important;
+    color: black;
+}
+
+.testimonialthird {
+    /* border: 2px solid yellow; */
+    margin-left: 40px;
+    /* width: 50%; */
+}
+
+.testimonialthird img {
+    width: 70%;
+}
+
+.testImgDiv {
+    width: 150px;
+    height: 150px;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+}
+
+.testImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+#lastTestimonial {
+    margin-bottom: 50px;
+}
+
+.TName {
+    color: #D00000;
+}
+
+.testtopdiv {
+    width: 60%;
+    height: auto;
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.testtopdiv img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:500px) {
+    .testtopdiv {
+        width: 100%;
+        height: auto;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+
+    .testimonialfirst {
+        /* border: 2px solid red; */
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .testimonialfirst p {
+        font-size: 10px !important;
+        /* font-weight:600; */
+        color: black;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .testimonialsecond {
+        /* border: 2px solid green; */
+        width: 100%;
+    }
+
+    .testimonialsecond p {
+        font-size: 11px !important;
+        color: black;
+    }
+
+    .testimonialthird {
+        /* border: 2px solid yellow; */
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 25%;
+    }
+
+    .testimonialthird img {
+        width: 100%;
+    }
+
+    .testImgDiv {
+        width: 80px;
+        height: 80px;
+        background-color: #D9D9D9;
+        border-radius: 12px;
+    }
+
+    #lastTestimonial {
+        margin-bottom: 0px;
+    }
+
+    .testBtn {
+        border: 2px solid #D00000;
+        background-color: white;
+        border-radius: 8px;
+        color: black;
+        padding: 8px 20px;
+        text-align: center;
+        margin: 0px 5px;
+    }
+
+    .testActive {
+        border: 2px solid #D00000;
+        background-color: #D00000;
+        border-radius: 8px;
+        color: white;
+        padding: 8px 20px;
+        text-align: center;
+        margin: 0px 5px;
+    }
+
+    #firstTestimonial {
+        padding: 0px;
+    }
+
+    .TName {
+        color: #D00000;
+        font-size: 14px;
+    }
+
+    .testBtnDiv {
+        /* border: 2px solid green; */
+        /* width: 50%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 50px 0px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .testBtnDiv {
+        /* border: 2px solid green; */
+        /* width: 50%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 66px 0px;
+    }
+}

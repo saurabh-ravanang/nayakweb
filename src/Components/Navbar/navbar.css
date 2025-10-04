@@ -1,0 +1,31 @@
+
+@media(min-width:1800px){
+/* Footer css*/
+
+.MainFooterDiv {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */ 
+  /* margin: 0px 150px; */
+  background-color: rgb(249, 244, 244); 
+  padding: 0px 200px !important;
+}
+
+.footerLastDiv {
+  /* margin: 0px 150px; */
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: space-between;
+  padding: 0px 200px !important;
+  align-items: center;
+  background-color: rgb(249, 244, 244);
+}
+}
+
+@media (min-width:1000px)and (max-width:1396px) {
+  .navbar{
+    background-color: white;
+    padding:  10px 20px;
+  }
+}

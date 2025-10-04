@@ -1,0 +1,670 @@
+.Hmaindiv {
+  /* height: 90vh; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 60px 0px; */
+  /* background-color: #da1f24 !important; */
+  /* background-image: url("../../Assets/landing/mybanner.jpg"); */
+  background-image: url("../../Assets/landing/NayakDigital.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* border: 2px solid green; */
+}
+
+.Hmaininnerdiv {
+  display: flex;
+  gap: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.hleft {
+  width: 60%;
+  /* border: 2px solid white; */
+  padding: 60px 0px;
+}
+
+.fincCenteranant {
+  color: white;
+  background-color: #da1f24;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 22px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.hrightanant {
+  /* border: 2px solid white; */
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hrightinner {
+  background-color: #fcfcfc;
+  /* height: 100%; */
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.hleft h2 {
+  color: #da1f24;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-family: PT Sans, sans-serif !important;
+}
+.boysnayaklanding {
+  /* border: 2px solid black; */
+  width: 90%;
+}
+
+.hleft h4 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.hleft p {
+  color: white;
+  font-size: 17px;
+}
+
+.EnqFormnew h3 {
+  color: #da1f24;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.EnqFormnew h5 {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.EnqFormnew p {
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-control2 {
+  padding: 13px 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ced4da;
+}
+
+.FormSubmit {
+  border-radius: 10px;
+  border: none;
+  background-color: #da1f24;
+  color: white;
+  width: 100%;
+  padding: 13px 10px;
+}
+
+.form-control2::placeholder {
+  color: #888;
+  /* Placeholder text color */
+  font-size: 16px;
+  /* Font size */
+  font-weight: 600;
+}
+
+.secondsection1 {
+  padding: 60px 0px;
+  background-color: #f0f4f5;
+}
+
+.secondsection1 h4 {
+  text-align: center;
+  color: #333333;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.secondsectionP {
+  text-align: center;
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 60px;
+  width: 60%;
+  margin: auto;
+}
+
+/* why start  */
+
+.whyinnerdivnew {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  width: 90%;
+  margin: auto;
+  gap: 40px;
+}
+
+.whymainboxnew {
+  display: flex;
+  /* align-items: center; */
+  gap: 20px;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.whymaindivnew {
+  padding: 60px 0px;
+  background-color: #ffffff;
+}
+
+.whymaindivnew h2 {
+  text-align: center;
+  color: #333333;
+  font-size: 50px;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.whymainboxtextdivnew h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #666666;
+  font-weight: 700;
+}
+
+.whymainboxtextdivnew p {
+  font-size: 18px;
+  color: #666666;
+  text-transform: capitalize;
+}
+
+.whymainboximgdivnew {
+  width: 80px;
+  height: 80px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: end;
+  padding-top: 7px;
+}
+
+.landrecdiv {
+  background-color: #58a8ce;
+  width: 10%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+.landrecdiv2 {
+  background-color: #8ece97;
+  width: 10%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+.landrecdiv3 {
+  background-color: #c363bd;
+  width: 10%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+.landrecdiv4 {
+  background-color: #cbd362;
+  width: 10%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+.landrecdiv5 {
+  background-color: #da1f24;
+  width: 10%;
+  height: 100%;
+  /* border-radius: 10px; */
+}
+
+.whymainboximgdivnew img {
+  width: 100%;
+  height: 100%;
+}
+
+/* why start  */
+
+.featureCaurnewlanding {
+  /* border: 2px solid black; */
+  width: 80% !important;
+  margin: auto;
+}
+
+.homeSslider .slick-dots {
+  position: absolute;
+  bottom: -10px;
+  display: block;
+  width: 100%;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+/* course start  */
+
+.Cmaindiv1 {
+  padding: 60px 0px;
+  background-color: #f0f4f5;
+  /* margin-top: 60px; */
+}
+
+.Cmaindiv1 h2 {
+  text-align: center;
+  color: #333333;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.CmaindivP {
+  text-align: center;
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 60px;
+  width: 60%;
+  margin: auto;
+}
+
+.Cofferinnerdiv {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.Coffermainbox {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.Coffercourseicondiv {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.Coffercourseicondiv img {
+  width: 100%;
+  height: 100%;
+}
+
+.Coffermainbox h4 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Coffermainbox p {
+  font-size: 18px;
+  color: #666666;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#landtestimonialmain {
+  padding-top: 50px;
+}
+
+.landQualitydiv {
+  padding: 100px 0px;
+  background-color: #f0f4f5;
+}
+
+.landQualitydiv h3 {
+  text-align: center;
+  color: #333333;
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.landQualitydiv p {
+  text-align: center;
+  color: #333333;
+  font-size: 20px;
+  margin-bottom: 60px;
+  width: 60%;
+  margin: auto;
+}
+
+#s {
+  margin-top: 30px;
+}
+
+.landQualityNo {
+  color: #da1f24;
+}
+
+/* course start  */
+
+.landtopperdiv {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .landtopperdivimg{
+    border: 2px solid red;
+} */
+
+@media (max-width: 600px) {
+  .Hmaindiv {
+    height: auto;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    /* background-color: #da1f24 !important; */
+  }
+
+  .Hmaininnerdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .hleft {
+    width: 100%;
+    padding: 0px 0px 60px 0px;
+  }
+  .boysnayaklanding {
+    /* border: 2px solid black; */
+    width: 100%;
+  }
+
+  .hrightanant {
+    width: 100%;
+  }
+
+  .hleft h2 {
+    color: #da1f24;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .EnqFormnew h3 {
+    color: #da1f24;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .secondsection1 {
+    padding: 40px 0px;
+    background-color: #f0f4f5;
+  }
+
+  .secondsection1 h4 {
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .secondsectionP {
+    text-align: justify;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 60px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .featureCaurnewlanding {
+    /* border: 2px solid black; */
+    width: 90% !important;
+    margin: auto;
+    padding: 0px 0px;
+  }
+
+  .homeSslider .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    width: 100%;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+  }
+
+  .whymaindivnew h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+
+  .whyinnerdivnew {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+  }
+
+  .whymainboxtextdivnew h3 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #666666;
+    font-weight: 700;
+  }
+
+  .whymainboxtextdivnew p {
+    font-size: 14px;
+    color: #666666;
+    text-transform: capitalize;
+  }
+
+  .whymainboximgdivnew {
+    /* width: 60px; */
+    height: 80px;
+    width: 8%;
+    padding-top: 2px;
+  }
+
+  .whymainboxtextdivnew {
+    width: 75%;
+  }
+
+  .whymainboximgdivnew img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Cmaindiv1 h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .CmaindivP {
+    text-align: justify;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 60px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .Cofferinnerdiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 40px;
+  }
+
+  .Coffercourseicondiv {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .landQualitydiv h3 {
+    text-align: center;
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .landQualitydiv {
+    padding: 40px 0px;
+  }
+  .landQualitydiv p {
+    text-align: justify;
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 60px;
+    width: 90%;
+    margin: auto;
+  }
+  #s {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+  .Hmaindiv {
+    height: auto;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    background-color: #da1f24 !important;
+  }
+
+  .Hmaininnerdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .hleft {
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid white; */
+  }
+
+  .hrightanant {
+    margin: auto;
+    /* border: 2px solid white; */
+    width: 70%;
+  }
+
+  .whymaindivnew h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 40px;
+    margin-bottom: 60px;
+    font-weight: 700;
+  }
+
+  .whyinnerdivnew {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    width: 80%;
+    margin: auto;
+    gap: 40px;
+  }
+
+  .Cmaindiv1 h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+
+  .Cofferinnerdiv {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 40px;
+  }
+  .landQualitydiv h3 {
+    text-align: center;
+    color: #333333;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .landQualitydiv p {
+    text-align: justify;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 60px;
+    width: 90%;
+    margin: auto;
+  }
+  #s {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .landQualitydiv {
+    padding: 60px 0px;
+  }
+}

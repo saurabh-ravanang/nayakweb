@@ -1,0 +1,323 @@
+.notesmaindiv {
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+}
+
+.notefirstdiv {
+    margin-top: 10px;
+}
+
+.noteMainHeading {
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: #01202b;
+    font-weight: 700;
+    color: #222;
+    margin: 20px 0px;
+}
+
+.notesQue {
+    font-size: 22px;
+    font-style: normal;
+    color: #01202b;
+    font-weight: 600;
+    color: #222;
+    margin: 20px 0px;
+}
+
+.notesubheading {
+    font-size: 22px;
+    font-style: normal;
+    color: #01202b;
+    font-weight: 600;
+    color: #222;
+    margin: 20px 0px;
+}
+
+.Answer {
+    font-size: 16px;
+    font-style: normal;
+    color: #01202b;
+    font-weight: 600;
+    color: #222;
+    margin: 20px 0px;
+}
+
+.notespara {
+    font-size: 17px;
+    color: #000000;
+    background-color: transparent;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    vertical-align: baseline;
+    white-space: pre;
+    white-space: pre-wrap;
+}
+
+.notelistitem {
+    display: list-item;
+}
+
+
+
+/* updated  */
+.notes2main {
+    background-color: #f5f5f5;
+    padding-bottom: 60px;
+}
+
+.notes2 {
+    display: flex;
+    /* border: 2px solid black; */
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.notes2left {
+    background-color: white;
+    width: 70%;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.notes2right {
+    /* border: 2px solid green; */
+    width: 30%;
+    min-height: 100vh;
+}
+
+
+.notesTable table,
+.notesTable th,
+.notesTable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.notesDowndloadHeading {
+    font-size: 28px;
+    font-style: normal;
+    color: #01202b;
+    font-weight: 600;
+    color: #222;
+    margin: 20px 0px;
+}
+
+.notesdownloadBtn {
+    border-radius: 46.886px;
+    background: #DA1F24;
+    box-shadow: 0px 12.50286px 12.50286px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px 80px;
+}
+
+.notesimg {
+    width: 100%;
+}
+
+.notesTable {
+    /* border: 2px solid red; */
+    /* display: none; */
+}
+
+.notesTable .sautable {
+    /* width: 100%; */
+    /* background-color: blue; */
+}
+
+
+
+
+@media(max-width:600px) {
+    .notes2 {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .notes2left {
+        background-color: white;
+        width: 100%;
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+    }
+
+    .notes2right {
+        /* border: 2px solid green; */
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .noteMainHeading {
+        font-size: 22px;
+        font-weight: 600;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 700;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .notespara {
+        font-size: 13px;
+        color: #000000;
+        background-color: transparent;
+        font-weight: 400;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        text-decoration: none;
+        vertical-align: baseline;
+        white-space: pre;
+        white-space: pre-wrap;
+    }
+
+    .notesubheading {
+        font-size: 17px;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 600;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .Answer {
+        font-size: 13px;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 600;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .notesDowndloadHeading {
+        font-size: 18px;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 600;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .notesdownloadBtn {
+        border-radius: 46.886px;
+        background: #DA1F24;
+        box-shadow: 0px 12.50286px 12.50286px 0px rgba(0, 0, 0, 0.25);
+        padding: 6px 60px;
+    }
+
+    .notesTable table,
+    .notesTable th,
+    .notesTable td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .notes2 {
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .notes2left {
+        background-color: white;
+        width: 100%;
+        margin-top: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 20px;
+    }
+
+    .notes2right {
+        /* border: 2px solid green; */
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .noteMainHeading {
+        font-size: 22px;
+        font-weight: 600;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 700;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .notespara {
+        font-size: 13px;
+        color: #000000;
+        background-color: transparent;
+        font-weight: 400;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        text-decoration: none;
+        vertical-align: baseline;
+        white-space: pre;
+        white-space: pre-wrap;
+    }
+
+    .notesubheading {
+        font-size: 17px;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 600;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .Answer {
+        font-size: 13px;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 600;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .notesDowndloadHeading {
+        font-size: 18px;
+        font-style: normal;
+        color: #01202b;
+        font-weight: 600;
+        color: #222;
+        margin: 20px 0px;
+    }
+
+    .notesdownloadBtn {
+        border-radius: 46.886px;
+        background: #DA1F24;
+        box-shadow: 0px 12.50286px 12.50286px 0px rgba(0, 0, 0, 0.25);
+        padding: 6px 60px;
+    }
+
+    .notesTable table,
+    .notesTable th,
+    .notesTable td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 8px;
+    }
+}

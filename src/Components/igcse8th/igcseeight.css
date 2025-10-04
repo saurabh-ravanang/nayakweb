@@ -1,0 +1,621 @@
+.igcseeightTopDiv {
+    /* border: 2px solid yellow; */
+    padding: 0px 150px;
+}
+
+.igcseeightMain {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.igcseeightLeftDiv {
+    /* border: 2px solid red; */
+    width: 1000px !important;
+    height: 450px !important;
+}
+
+.igcseeightLeftDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.igcseeightRightDiv {
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.igcseeightRightDiv h3 {
+    color: #D00000;
+    font-size: 32px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.igcseeightRightDiv p {
+    color: #000;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34.5px;
+}
+
+.igcseeightSecondDiv {
+    /* border: 2px solid black; */
+    background-color: #D00000;
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+
+.igcseeightSeconDiv h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.igcseeightSeconMainDiv {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.igcseeightMultipleText {
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 160px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.igcseeightMultipleInnerDiv {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.igcseeightMultipleInnerDiv img {
+    width: 4%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.igcseeightMultipleInnerDiv h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.igcseeightMultipleText p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.igcseeightThirdDiv {
+    /* border: 2px solid black; */
+    padding: 50px 150px;
+}
+
+.igcseeightMainDiv2 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.igcseeightMultipleText2 {
+    /* border: 2px solid black; */
+    /* width: 500px;
+    height: 180px; */
+    width: 544px;
+    height: 130px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#matrixBoxx {
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 260px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.igcseeightMultipleInnerDiv2 {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.igcseeightMultipleInnerDiv2 img {
+    width: 4%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.igcseeightMultipleInnerDiv2 h3 {
+    color: #D00000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.igcseeightMultipleText2 p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+    text-align: justify;
+}
+
+.igcseeightThirdDiv h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.matrixDiv {
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 200px;
+}
+
+.matrixDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.igcseeightLastDiv {
+    padding: 20px 150px;
+}
+
+.igcseeightFaq {
+    color: #000;
+    font-size: 35.898px;
+    font-weight: 400;
+}
+
+.igcseeightTriviaImgDiv {
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.igcseeightTriviaImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+#hiddenBox {
+    display: none !important;
+    visibility: hidden;
+    border: 2px solid black;
+}
+
+
+
+
+@media (max-width:600px) {
+    #hiddenBox {
+        display: none;
+    }
+
+    .igcseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 20px;
+    }
+
+    .igcseeightMain {
+        /* border: 2px solid black; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .igcseeightLeftDiv {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .igcseeightRightDiv h3 {
+        color: #D00000;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .igcseeightRightDiv p {
+        color: #000;
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.5px;
+    }
+
+    .igcseeightRightDiv {
+        /* border: 2px solid green; */
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .igcseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 21px;
+        margin-top: 50px;
+    }
+
+    .igcseeightSeconDiv h1 {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .igcseeightSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .igcseeightMultipleText {
+        /* border: 2px solid black; */
+        width: 500px;
+        /* height: 130px; */
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .igcseeightMultipleInnerDiv {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .igcseeightMultipleInnerDiv h3 {
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .igcseeightMultipleText p {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+
+    .igcseeightLastDiv {
+        padding: 20px 10px;
+    }
+
+    .igcseeightFaq {
+        color: #000;
+        font-size: 22.898px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+
+    .igcseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 20px;
+    }
+
+    .igcseeightThirdDiv h1 {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .igcseeightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .igcseeightMultipleInnerDiv2 {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    /* #Simplify{
+        width: 500px;
+        height: 170px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    } */
+    .igcseeightMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .igcseeightMultipleText2 p {
+        color: black;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+
+    #matrixBoxx {
+        /* border: 2px solid green; */
+        width: 500px;
+        height: 260px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .matrixDiv {
+        /* border: 2px solid green; */
+        width: 100%;
+        height: 100%;
+    }
+
+    .igcseeightTriviaImgDiv {
+        /* border: 2px solid black; */
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .igcseeightTriviaImgDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #icseFirst {
+        /* border: 2px solid black ; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:1800px) {
+    .igcseeightSeconDiv {
+        margin-top: 50px;
+        /* border: 2px solid black; */
+    }
+
+    .igcseeightSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .igcseeightMultipleText {
+        /* border: 2px solid red; */
+        width: 450px;
+        height: 180px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .igcseeightMainDiv2 {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .igcseeightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 470px;
+        height: 130px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .igcseeightMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .igcseeightMultipleText2 p {
+        color: black;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: justify;
+    }
+
+    .igcseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 200px;
+    }
+
+    .igcseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 200px;
+        margin-top: 50px;
+    }
+
+    .igcseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 200px;
+    }
+
+    .igcseeightLastDiv {
+        padding: 20px 200px;
+    }
+
+    #hiddenBox {
+        display: block !important;
+        visibility: hidden;
+        border: 2px solid black;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .igcseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+
+    .igcseeightMain {
+        /* border: 2px solid black; */
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .igcseeightLeftDiv {
+        width: auto !important;
+        height: 450px !important;
+    }
+
+    .igcseeightRightDiv h3 {
+        color: #D00000;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+
+    .igcseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+
+    .igcseeightMultipleText {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 160px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+    }
+
+    .icseeightMultipleInnerDiv img {
+        width: 3.5%;
+        height: 100%;
+        margin-right: 10px;
+    }
+
+    .icseeightupdatediv2 {
+        /* border: 2px solid white; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .igcseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 50px;
+    }
+    #icseFirst {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: 130px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .igcseeightLastDiv {
+        padding: 20px 50px;
+    }
+}
+
+
+
+@media (min-width:1001px)and (max-width:1396px) {
+
+    .igcseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+    .igcseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+
+    .igcseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 50px;
+    }
+
+    .igcseeightMultipleText {
+        /* border: 2px solid black; */
+        width: 400px;
+        height: 240px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .igcseeightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 430px;
+        height: 180px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .igcseeightLastDiv {
+        padding: 20px 50px;
+    }
+
+    .hidebox {
+        display: none !important;
+    }
+}

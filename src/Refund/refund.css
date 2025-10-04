@@ -1,0 +1,12 @@
+.refundHeading{
+font-size: "Roboto";
+font-size: 18px;
+color: #373736;
+padding: 30px 0px;
+}
+
+@media(max-width:500px){
+    .refundHeading{
+        font-size: 12px;
+    }
+}

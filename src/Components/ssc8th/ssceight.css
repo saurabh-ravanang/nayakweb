@@ -1,0 +1,624 @@
+.ssceightTopDiv {
+    /* border: 2px solid yellow; */
+    padding: 0px 150px;
+}
+
+.ssceightMain {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ssceightLeftDiv {
+    /* border: 2px solid red; */
+    width: 1000px !important;
+    height: 450px !important;
+}
+
+.ssceightLeftDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.ssceightRightDiv {
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.ssceightRightDiv h3 {
+    color: #D00000;
+    font-size: 32px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.ssceightRightDiv p {
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34.5px;
+}
+
+.ssceightSecondDiv {
+    /* border: 2px solid black; */
+    background-color: #D00000;
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+
+.ssceightSeconDiv h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.ssceightSeconMainDiv {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ssceightMultipleText {
+    /* border: 2px solid black; */
+    width: 550px;
+    /* height: 160px; */
+    height: 244px;
+    /* height: auto; */
+    /* margin-right: 50px; */
+    margin-bottom: 20px;
+}
+
+.ssceightMultipleInnerDiv {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ssceightMultipleInnerDiv img {
+    width: 4%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.ssceightMultipleInnerDiv h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.ssceightMultipleText p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.ssceightThirdDiv {
+    /* border: 2px solid black; */
+    padding: 50px 150px;
+}
+
+.ssceightMainDiv2 {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.ssceightMultipleText2 {
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 180px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#matrixBoxx {
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 260px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.ssceightMultipleInnerDiv2 {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ssceightMultipleInnerDiv2 img {
+    width: 4%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.ssceightMultipleInnerDiv2 h3 {
+    color: #D00000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.ssceightMultipleText2 p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+    text-align: justify;
+}
+
+.ssceightThirdDiv h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.matrixDiv {
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 200px;
+}
+
+.matrixDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.ssceightLastDiv {
+    padding: 20px 150px;
+}
+
+.ssceightFaq {
+    color: #000;
+    font-size: 35.898px;
+    font-weight: 400;
+}
+
+.ssceightTriviaImgDiv {
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+.ssceightTriviaImgDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+#ssceighthidecon {
+    visibility: hidden;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    #ssceighthidecon {
+        display: none;
+    }
+
+    .ssceightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 20px;
+    }
+
+    .ssceightMain {
+        /* border: 2px solid black; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ssceightLeftDiv {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .ssceightRightDiv h3 {
+        color: #D00000;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .ssceightRightDiv p {
+        color: #000;
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.5px;
+    }
+
+    .ssceightRightDiv {
+        /* border: 2px solid green; */
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .ssceightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 21px;
+        margin-top: 50px;
+    }
+
+    .ssceightSeconDiv h1 {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .ssceightSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .ssceightMultipleText {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .ssceightMultipleInnerDiv {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .ssceightMultipleInnerDiv h3 {
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .ssceightMultipleText p {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+
+    .ssceightLastDiv {
+        padding: 20px 10px;
+    }
+
+    .ssceightFaq {
+        color: #000;
+        font-size: 22.898px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+
+    .ssceightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 20px;
+    }
+
+    .ssceightThirdDiv h1 {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .ssceightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .ssceightMultipleInnerDiv2 {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #ssceightFirst {
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        /* border: 2px solid red; */
+    }
+
+    .ssceightMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .ssceightMultipleText2 p {
+        color: black;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+
+    #matrixBoxx {
+        /* border: 2px solid green; */
+        width: 500px;
+        height: 260px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .ssceightTriviaImgDiv {
+        /* border: 2px solid black; */
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+    .ssceightTriviaImgDiv img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #icseFirst {
+        /* border: 2px solid black ; */
+        width: 500px;
+        height: 300px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+
+}
+
+@media (min-width:1800px) {
+    .ssceightSeconDiv {
+        margin-top: 50px;
+        /* border: 2px solid black; */
+    }
+
+    .ssceightSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ssceightMultipleText {
+        /* border: 2px solid red; */
+        width: 450px;
+        /* height: 160px; */
+        height: 240px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .ssceightMainDiv2 {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .ssceightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 400px;
+        height: 220px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .ssceightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 200px;
+    }
+
+    .ssceightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 200px;
+        margin-top: 50px;
+    }
+
+    .ssceightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 200px;
+    }
+
+    .ssceightMultipleInnerDiv h3 {
+        color: white;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .ssceightMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .ssceightLastDiv {
+        padding: 20px 200px;
+    }
+
+    #matrixBoxx {
+        width: 348px !important;
+        height: 260px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        visibility: hidden;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .ssceightTopDiv {
+        /* border: 2px solid black; */
+        padding: 0px 50px;
+    }
+
+    .ssceightMain {
+        /* border: 2px solid black; */
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ssceightLeftDiv {
+        width: auto !important;
+        height: 450px !important;
+    }
+
+    .ssceightRightDiv h3 {
+        color: #D00000;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+
+    .ssceightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 20px 50px;
+        margin-top: 50px;
+    }
+
+    .ssceightMultipleText {
+        /* border: 2px solid black; */
+        width: 100%;
+        /* height: 160px; */
+        height: 224px;
+        margin-bottom: 20px;
+    }
+
+    .ssceightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 50px;
+    }
+
+    #ssceighthidecon {
+        display: none;
+    }
+
+    .testimonialsecond p {
+        font-size: 13px !important;
+        color: black;
+    }
+
+    .testimonialthird img {
+        width: 52%;
+    }
+
+    .mainTestDiv {
+        border-bottom: 2px solid #D00000;
+        /* height: 300px; */
+        display: flex !important;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+    .testimonialsecond {
+        /* border: 2px solid green; */
+        width: 70%;
+        margin-left: 20px;
+    }
+    .ssceightLastDiv {
+        padding: 20px 50px;
+    }
+
+}
+
+
+@media (min-width:1001px)and (max-width:1396px) {
+
+    .ssceightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+    .ssceightRightDiv p {
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.5px;
+    }
+    .ssceightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+
+
+    .ssceightMultipleText {
+        /* border: 2px solid black; */
+        width: 420px;
+        /* height: 160px; */
+        height: 244px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .ssceightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 50px;
+    }
+
+    .ssceightMultipleText2 {
+        width: 400px;
+        height: 180px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .ssceightLastDiv {
+        padding: 20px 50px;
+    }
+}

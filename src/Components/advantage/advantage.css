@@ -1,0 +1,262 @@
+.advantageMainDiv {
+    /* border: 2px solid black; */
+    margin: 100px 0px;
+}
+
+.advantageHeading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #DA1F24;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.advantageinnerDiv {
+    /* border: 2px solid green; */
+    background-color: #F4F4F4;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    width: 370px !important;
+    height: 370px !important;
+}
+
+.advantageinnerDiv img {
+    width: 50% !important;
+}
+
+.advantageinnerDiv:focus-visible {
+    border: none !important;
+    outline: none !important;
+}
+
+.advantageinnerDiv:hover .advantageinnerDiv h3 {
+    color: red !important;
+}
+
+.advantageinnerDiv:hover {
+    color: black !important;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.advantageinnerDiv h3 {
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.advanslider .slick-dots {
+    position: absolute;
+    bottom: -45px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* top heading css  */
+.higheradvantage {
+    /* border: 2px solid yellow; */
+    padding: 0px 100px;
+    /* margin-top: 70px; */
+    margin-top: 7px;
+}
+
+.newsmallHeadingadvan h1 {
+    font-size: 65px;
+    color: #DA1F24;
+    margin-bottom: 50px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.mainOfferDivadvan {
+    /* border: 2px solid black; */
+    position: relative;
+    display: none;
+}
+
+.BigHeadingadvan {
+    text-align: right;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    /* display: none; */
+}
+
+.BigHeadingadvan h1 {
+    font-size: 120px;
+    color: #EDEDED;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    /* display: none; */
+    /* border: 2px solid red; */
+}
+
+.newsmallHeadingadvan h1 {
+    font-size: 65px;
+    color: #DA1F24;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .advantageHeading {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #DA1F24;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .advantageMainDiv {
+        /* border: 2px solid black; */
+        margin: 30px 0px;
+        /* margin-bottom: 100px; */
+    }
+
+    .advantageinnerDiv {
+        /* border: 2px solid green; */
+        background-color: #F4F4F4;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        width: 200px !important;
+        height: 200px !important;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .advantageinnerDiv h3 {
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .advanslider .slick-dots {
+        position: absolute;
+        bottom: -65px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        display: none !important;
+    }
+
+    .higheradvantage {
+        padding: 0px 10px;
+        margin-top: 50px;
+    }
+
+    .newsmallHeadingadvan h1 {
+        font-size: 30px !important;
+        color: #DA1F24;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (min-width:1000px)and (max-width:1360px) {
+    .advantageinnerDiv {
+        /* border: 2px solid green; */
+        background-color: #F4F4F4;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        width: 250px !important;
+        height: 250px !important;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .advantageinnerDiv h3 {
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1361px)and (max-width:1390px) {
+    .advantageinnerDiv {
+        /* border: 2px solid green; */
+        background-color: #F4F4F4;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        width: 300px !important;
+        height: 300px !important;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .advantageinnerDiv h3 {
+        margin-top: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width:1800px) {
+    .advantageinnerDiv {
+        /* border: 2px solid green; */
+        background-color: #F4F4F4;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+        width: 480px !important;
+        height: 480px !important;
+    }
+}
+
+@media (min-width:601px) and (max-width:900px) {
+    .higheradvantage {
+        /* border: 2px solid yellow; */
+        padding: 0px 10px;
+        /* margin-top: 70px; */
+        margin-top: 7px;
+    }
+
+    .newsmallHeadingadvan h1 {
+        font-size: 55px;
+        color: #DA1F24;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        margin-bottom: 50px;
+    }
+
+    .advantageinnerDiv {
+        /* border: 2px solid green; */
+        
+        margin: auto;
+    }
+}

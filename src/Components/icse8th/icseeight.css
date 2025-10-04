@@ -1,0 +1,621 @@
+.icseeightTopDiv {
+    /* border: 2px solid yellow; */
+    padding: 0px 150px;
+}
+
+.icseeightMain {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.icseeightLeftDiv {
+    /* border: 2px solid red; */
+    width: 1000px !important;
+    height: 450px !important;
+}
+
+.icseeightLeftDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.icseeightRightDiv {
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.icseeightRightDiv h3 {
+    color: #D00000;
+    font-size: 32px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.icseeightRightDiv p {
+    color: #000;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34.5px;
+}
+
+.icseeightSecondDiv {
+    /* border: 2px solid black; */
+    background-color: #D00000;
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+
+.icseeightSeconDiv h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.icseeightSeconMainDiv {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.icseeightMultipleText {
+    /* border: 2px solid black; */
+    /* width: 500px; */
+    width: 100%;
+    /* height: 160px; */
+    height: auto;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.icseeightMultipleInnerDiv {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icseeightMultipleInnerDiv img {
+    width: 1.5%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.icseeightMultipleInnerDiv h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.icseeightMultipleText p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.icseeightThirdDiv{
+    /* border: 2px solid black; */
+    padding: 50px 150px;
+}
+
+.icseeightMainDiv2{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icseeightMultipleText2 {
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 180px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#matrixBoxx{
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 260px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.icseeightMultipleInnerDiv2 {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icseeightMultipleInnerDiv2 img {
+    width: 4%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.icseeightMultipleInnerDiv2 h3 {
+    color: #D00000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.icseeightMultipleText2 p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+    text-align: justify;
+}
+.icseeightThirdDiv h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.matrixDiv{
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 200px;
+}
+.matrixDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.icseeightLastDiv {
+    padding: 20px 150px;
+}
+
+.icseeightFaq {
+    color: #000;
+    font-size: 35.898px;
+    font-weight: 400;
+}
+.icseeightTriviaImgDiv{
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+.icseeightTriviaImgDiv img{
+    width: 100%;
+    height: 100%;
+}
+.matrixDiv2{
+    width: 40%;
+}
+.matrixDiv2 img{
+    width: 100%;
+}
+
+.icseeightupdatediv{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.icseeightupdatediv2{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.icseeightupdateinnerdiv2{
+    border: 2px solid white;
+    border-radius: 23px;
+    width: 300px;
+    height: auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#icseeighthoursdiv2{display: none;}
+#icseeighthidecon{visibility: hidden;}
+.icseeightfirstLine{
+    font-size: 16px;
+    color: white;
+}
+
+.icsefisrtwhiteline{
+    color: black;
+}
+
+@media (max-width:600px) {
+    .icseeightfirstLine{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+    .icsefisrtwhiteline{
+        color: black;
+        font-size: 13px;
+        text-align: center;
+    }
+    #icseeighthidecon{display: none;}
+    #hidebox{
+        border: 2px solid red;
+        visibility: visible;
+        /* display: none !important; */
+    }
+    .matrixDiv2{
+        width: 100%;
+    }
+    .matrixDiv2 img{
+        width: 100%;
+    }
+    .icseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 20px;
+    }
+
+    .icseeightMain {
+        /* border: 2px solid black; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icseeightLeftDiv {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .icseeightRightDiv h3 {
+        color: #D00000;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .icseeightRightDiv p {
+        color: #000;
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.5px;
+    }
+
+    .icseeightRightDiv {
+        /* border: 2px solid green; */
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .icseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 21px;
+        margin-top: 50px;
+    }
+
+    .icseeightSeconDiv h1 {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .icseeightSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .icseeightMultipleText {
+        /* border: 2px solid black; */
+        /* width: 500px; */
+        width: auto;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .icseeightMultipleInnerDiv {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .icseeightMultipleInnerDiv h3 {
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .icseeightMultipleText p {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+    .icseeightLastDiv {
+        padding: 20px 10px;
+    }
+
+    .icseeightFaq {
+        color: #000;
+        font-size: 22.898px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .icseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 20px;
+    }
+    .icseeightThirdDiv h1 {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .icseeightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .icseeightMultipleInnerDiv2 {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    /* #Simplify{
+        width: 500px;
+        height: 170px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    } */
+    .icseeightMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+    .icseeightMultipleText2 p {
+        color: black;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+    #matrixBoxx {
+        /* border: 2px solid green; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .icseeightTriviaImgDiv{
+        /* border: 2px solid black; */
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .icseeightTriviaImgDiv img{
+        width: 100%;
+        height: 100%;
+    }
+    #icseFirst{
+        /* border: 2px solid black ; */
+        width: 500px;
+        height: auto !important;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .icseeightupdatediv2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .icseeightMultipleInnerDiv img {
+        width: 4%;
+        height: 100%;
+        margin-right: 10px;
+    }
+    #icseeighthoursdiv{display: none;}
+    #icseeighthoursdiv2{display: block;}
+}
+
+@media (min-width:1800px){
+    .icseeightSeconDiv {
+        margin-top: 50px;
+        /* border: 2px solid black; */
+    }
+    .icseeightSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: flex-start;
+        align-items:start;
+    }
+    .icseeightMultipleText {
+        /* border: 2px solid red; */
+        width: 100%;
+        height: auto;
+        margin-right: 85px;
+        /* margin-left: 50px; */
+        margin-bottom: 20px;
+    }
+    .icseeightMainDiv2{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .icseeightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 400px;
+        height: 180px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .icseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 200px;
+    }
+    .icseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 60px 50px 200px;
+        margin-top: 50px;
+    }
+    .icseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 200px;
+    }
+    .matrixDiv2{
+        width: 70%;
+    }
+    .matrixDiv2 img{
+        width: 100%;
+    }
+    .icseeightMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+    .icseeightMultipleInnerDiv h3 {
+        color: white;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+    .icseeightLastDiv {
+        padding: 20px 200px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .icseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+    .icseeightMain {
+        /* border: 2px solid black; */
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icseeightLeftDiv {
+        width: auto !important;
+        height: 450px !important;
+    }
+
+    .icseeightRightDiv h3 {
+        color: #D00000;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+    .icseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+    .icseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 50px;
+    }
+    #icseeighthidecon {
+        display: none;
+    }
+    .icseeightLastDiv {
+        padding: 20px 50px;
+    }
+}
+
+
+
+@media (min-width:1001px)and (max-width:1396px) {
+    .icseeightTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+    .icseeightSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+    .icseeightThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 50px;
+    }
+    .icseeightMultipleText {
+        /* border: 2px solid black; */
+        /* width: 500px;
+        height: 160px; */
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .icseeightMultipleText2 {
+        /* border: 2px solid black; */
+        width: 420px;
+        height: 200px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .icseeightLastDiv {
+        padding: 20px 50px;
+    }
+}
+
+

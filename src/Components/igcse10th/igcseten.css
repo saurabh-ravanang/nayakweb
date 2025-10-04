@@ -1,0 +1,17 @@
+@media (max-width:480px) {
+    .hidebox {
+        display: none !important;
+    }
+}
+
+/* .hidebox{
+    display: none !important;
+    visibility: hidden;
+}
+
+@media (max-width:1800px) {
+    .hidebox {
+        display: block !important;
+        visibility: hidden;
+    }
+} */

@@ -1,0 +1,585 @@
+.olympiadsTopDiv {
+    /* border: 2px solid yellow; */
+    /* width: 80%; */
+    /* margin: auto; */
+    padding: 0px 150px;
+}
+
+.olympiadsMain {
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.olympiadsLeftDiv {
+    /* border: 2px solid red; */
+    width: 1000px !important;
+    height: 450px !important;
+}
+
+.olympiadsLeftDiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.olympiadsRightDiv {
+    /* border: 2px solid green; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.olympiadsRightDiv h3 {
+    color: #D00000;
+    font-size: 32px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+.olympiadsRightDiv h4 {
+    color: #D00000;
+}
+
+.olympiadsRightDiv p {
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34.5px;
+}
+
+.olympiadsSecondDiv {
+    /* border: 2px solid black; */
+    background-color: #D00000;
+    padding: 50px 150px;
+    margin-top: 50px;
+}
+
+.olympiadsSeconDiv h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.olympiadsSeconMainDiv {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.olympiadsMultipleText {
+    /* border: 2px solid black; */
+    width: 550px;
+    /* width: 470px; */
+    height: 190px;
+    /* height: auto; */
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.olympiadsMultipleInnerDiv {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.olympiadsMultipleInnerDiv img {
+    width: 4%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.olympiadsMultipleInnerDiv h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.olympiadsMultipleText p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.olympiadsThirdDiv{
+    /* border: 2px solid black; */
+    /* width: 80%; */
+    /* margin: auto; */
+    padding: 50px 150px;
+}
+
+.olympiadsMainDiv2{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.olympiadsMultipleText2 {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: auto;
+    /* margin-right: 50px; */
+    margin-bottom: 20px;
+}
+
+#matrixBoxx{
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 260px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.olympiadsMultipleInnerDiv2 {
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.olympiadsMultipleInnerDiv2 img {
+    width: 1.5%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.olympiadsMultipleInnerDiv2 h3 {
+    color: #D00000;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+}
+
+.olympiadsMultipleText2 p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+    text-align: justify;
+}
+.olympiadsThirdDiv h1 {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 30px;
+}
+
+.matrixDiv{
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 200px;
+}
+.matrixDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.olympiadsLastDiv {
+    padding: 20px 150px;
+}
+
+.olympiadsFaq {
+    color: #000;
+    font-size: 35.898px;
+    font-weight: 400;
+}
+.olympiadsTriviaImgDiv{
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+.olympiadsTriviaImgDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.cbseMainBtnGroup{
+    /* border: 2px solid black; */
+    margin-top:150px;
+     margin-bottom:-50px
+}
+
+
+#cbseHidecon{display: none;}
+.testimonialHeading{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+@media (max-width:600px) {
+    #cbseHidecon{display: none;}
+    .olympiadsTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 20px;
+    }
+    .testimonialHeading{
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .olympiadsMain {
+        /* border: 2px solid black; */
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .olympiadsLeftDiv {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .olympiadsRightDiv h3 {
+        color: #D00000;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .olympiadsRightDiv h4 {
+        color: #D00000;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .olympiadsRightDiv p {
+        color: #000;
+        text-align: justify;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24.5px;
+    }
+
+    .olympiadsRightDiv {
+        /* border: 2px solid green; */
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .olympiadsSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 21px;
+        margin-top: 50px;
+    }
+
+    .olympiadsSeconDiv h1 {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .olympiadsSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .olympiadsMultipleText {
+        /* border: 2px solid black; */
+        width: 500px;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .olympiadsMultipleInnerDiv {
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .olympiadsMultipleInnerDiv h3 {
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+
+    .olympiadsMultipleText p {
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+    .olympiadsLastDiv {
+        padding: 20px 10px;
+    }
+
+    .olympiadsFaq {
+        color: #000;
+        font-size: 22.898px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+    .olympiadsThirdDiv {
+        /* border: 2px solid black; */
+        padding: 50px 20px;
+    }
+    .olympiadsThirdDiv h1 {
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.72px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .olympiadsMultipleText2 {
+        /* border: 2px solid black; */
+        width: 500px;
+        /* holympiads: 230px; */
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .olympiadsMultipleInnerDiv2 {
+        /* border: 2px solid red; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #Simplify{
+        /* border: 2px solid red; */
+        width: 500px;
+        /* holympiads: 270px; */
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .olympiadsMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+    .olympiadsMultipleText2 p {
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.24px;
+        text-align: center;
+    }
+    #matrixBoxx {
+        /* border: 2px solid green; */
+        width: 500px;
+        height: 260px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .olympiadsTriviaImgDiv{
+        /* border: 2px solid black; */
+        margin-bottom: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .olympiadsTriviaImgDiv img{
+        width: 100%;
+        height: 100%;
+    }
+    .cbseMainBtnGroup{
+        /* border: 2px solid black; */
+        margin-top:90px;
+         margin-bottom:-50px
+    }
+    .olympiadsMultipleInnerDiv2 img {
+        width: 4%;
+        height: 100%;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width:1800px){
+    #cbseHidecon{ display: block;visibility: hidden;}
+    .olympiadsSeconDiv {
+        margin-top: 50px;
+        /* border: 2px solid black; */
+    }
+    .olympiadsSeconMainDiv {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .olympiadsMultipleText {
+        /* border: 2px solid red; */
+        width: 450px;
+        height: auto;
+        /* holympiads: 160px; */
+        margin-right: 0px;
+        /* gap: 2px; */
+        margin-bottom: 20px;
+    }
+   
+    
+    .olympiadsMainDiv2 {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .olympiadsMultipleText2 {
+        /* border: 2px solid black; */
+        width: 470px;
+         height: auto; 
+         margin-right: 0px; 
+         margin-bottom: 0px; 
+    }
+    
+    .olympiadsMultipleInnerDiv2 h3 {
+        color: #D00000;
+        font-size: 21px;
+        font-weight: 700;
+        letter-spacing: -0.36px;
+        margin-top: 8px;
+    }
+    .olympiadsTopDiv {
+        /* border: 2px solid yellow; */
+        /* width: 80%; */
+        /* margin: auto; */
+        padding: 0px 200px;
+    }
+    .olympiadsSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 200px;
+        margin-top: 50px;
+    }
+    .olympiadsThirdDiv{
+        /* border: 2px solid black; */
+        /* width: 80%; */
+        /* margin: auto; */
+        padding: 50px 200px;
+    }
+    .olympiadsLastDiv {
+        padding: 20px 200px;
+    }
+    .olympiadsMultipleInnerDiv2 img {
+        width: 4%;
+        height: 100%;
+        margin-right: 10px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .olympiadsTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+    .olympiadsMain {
+        /* border: 2px solid black; */
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .olympiadsLeftDiv {
+        width: auto !important;
+        height: 450px !important;
+    }
+
+    .olympiadsRightDiv h3 {
+        color: #D00000;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+    .olympiadsSecondDiv {
+        /* border: 2px solid black; */
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+    .olympiadsMultipleText {
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .olympiadsThirdDiv {
+        padding: 50px 50px;
+    }
+    .olympiadsMultipleInnerDiv2 img {
+        width: 2.5%;
+        height: 100%;
+        margin-right: 10px;
+    }
+}
+
+
+@media (min-width:1001px)and (max-width:1396px){
+    .olympiadsTopDiv {
+        /* border: 2px solid yellow; */
+        padding: 0px 50px;
+    }
+    .olympiadsRightDiv p {
+        color: #000;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.5px;
+    }
+    .olympiadsRightDiv h3 {
+        color: #D00000;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .olympiadsSecondDiv {
+        background-color: #D00000;
+        padding: 50px 50px;
+        margin-top: 50px;
+    }
+    .olympiadsMultipleText {
+        /* border: 2px solid black; */
+        width: 420px;
+        /* height: 160px; */
+        height: auto;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .olympiadsThirdDiv {
+        padding: 50px 50px;
+    }
+}
+
+

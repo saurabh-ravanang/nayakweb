@@ -1,0 +1,11 @@
+
+User-agent: *
+Disallow: /student-login/
+Disallow: /example/
+Disallow: /sample-page/
+Disallow: /wp-content/
+
+Sitemap: https://nayakstutorials.com/sitemap.xml
+
+
+

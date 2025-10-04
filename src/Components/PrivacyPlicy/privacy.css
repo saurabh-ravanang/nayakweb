@@ -1,0 +1,12 @@
+.privacyHeading{
+    font-size: 18px;
+    color: #373736;
+    font-family:'Roboto';
+}
+
+
+@media(max-width:500px){
+    .privacyHeading{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,31 @@
+.wpfloat {
+    position: relative;
+}
+
+.wpicon {
+    /* width: 4% !important; */
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #25D366;
+}
+
+@media (max-width:500px) {
+    .wpicon {
+        /* width: 15% !important; */
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        /* padding: 20px; */
+    }
+    
+}

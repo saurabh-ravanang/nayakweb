@@ -1,0 +1,11 @@
+.termsHeading{
+font-family: 'Roboto';
+font-size: 18px;
+color: #373736;
+}
+
+@media(max-width:500px){
+    .termsHeading{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,98 @@
+/* .newenquirediv {
+    border: 2px solid green;
+    position: fixed;
+    right: 0;
+    top: 50%;
+} */
+
+
+.newenqmaindiv {
+    background: #DA1F24 !important;
+    position: fixed;
+    top: 45%;
+    right: -50px;
+    transform: rotate(270deg);
+    z-index: 10; 
+    padding: 10px 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+.newenqformdiv {
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: rgb(249, 244, 244);
+    width: 500px;
+    position: fixed;
+    top: 38%; 
+    right: 48px;
+    display: none;
+    z-index: 5; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.newenqmaindiv:hover + .newenqformdiv,.newenqformdiv:hover  {
+    display: block;
+}
+.enqheading{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.form-control-new{
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+}
+.form-control-new::placeholder {
+    text-align: left;
+}
+
+.enqformBtn {
+    background-color: #DA1F24;
+    padding: 10px 50px;
+    color: white;
+    border-radius: 5px !important;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    font-weight: 600;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+@media(max-width:600px){
+    /* .newenqmaindiv{
+        display: none;
+    } */
+
+    .newenqmaindiv {
+        background: #DA1F24 !important;
+        position: fixed;
+        top: 70%;
+        right: -30px;
+        transform: rotate(270deg);
+        z-index: 10;
+        padding: 6px 20px;
+        color: white;
+        font-size: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+    }
+    .newenqformdiv {
+        border-radius: 10px;
+        padding: 20px 10px;
+        background-color: rgb(249, 244, 244);
+        width: 70%;
+        position: fixed;
+        top: 38%; 
+        right: 48px;
+        display: none;
+        z-index: 5; 
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* border: 2px solid black; */
+    }
+}
